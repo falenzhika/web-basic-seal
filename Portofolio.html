@@ -2,104 +2,142 @@
 
 <html lang="en">
 <head>
-    <style type="text/css">
-        body {
-            background-color: antiquewhite;
-            width: 1000px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="asset/styke2.css">
+    <style type="text/css"> @import "styke2.css"; </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 </head>
 <body>
-    <center>
-        <h4 class="nama">FALENZHIKA INDAH</h4>
-        <p></p>Banyudono, Boyolali, Jawa Tengah 57373 | +62 813 2621 9686 | LinkedIn : Linkedin.com/falenzhika-indah | E-mail : falenzhikaindah@gmail.com</p>    
-    </center>
-   <table>
-        <tr>
-            <th>Deskripsi Diri</th>
-        </tr>
-        <tr>
-            <td> Mahasiswa S1 Program Studi Sosiologi Universitas Sebelas Maret memiliki minat dan pengalaman yang tinggi dalam bidang hubungan masyarakat, isu sosial, dan beberapa program kerja gabungan. Pekerja keras, bertanggung jawab dan keterampilan manajemen, dapat bekerja secara individu atau tim, baik dalam komunikasi. Memiliki kemampuan fisik optimal serta senantiasa rapi, cekatan, dan teratur dalam bekerja.</td>
-        </tr>
-    </table>
+    <!--hero-->
+    <div id="hero" class="container d-flex flex-column align-items-center justify-content-center">
+        <img src="falenzhika.jpeg" class="image-hero rounded-circle" alt="Falenzhika Indah">
+        <h1 class="tittle fw-bold">Falenzhika Indah</h1>
+    </div>
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Alamat</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://wa.me/+6281326219686">Telepon</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://www.linkedin.com/in/falenzhika-indah/">LinkedIn</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://www.falenzhikaindah@gmail.com">E-mail</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br>
+
+    <!--deskripsi diri-->
+    <div id="diri" class="container d-flex flex-column align-items-center justify-content-center">
+            <h2>Deskripsi Diri</h2>
+            <p class="text-about text-secondary lh-lg"> Mahasiswa S1 Program Studi Sosiologi Universitas Sebelas Maret memiliki minat dan pengalaman yang tinggi dalam bidang hubungan masyarakat, isu sosial, dan beberapa program kerja gabungan. Pekerja keras, bertanggung jawab dan keterampilan manajemen, dapat bekerja secara individu atau tim, baik dalam komunikasi. Memiliki kemampuan fisik optimal serta senantiasa rapi, cekatan, dan teratur dalam bekerja.</p>
+    </div>
 <br>
-    <table border="1">
-        <tr>
-            <th colspan="2">Riwayat Pendidikan </th>
-        </tr>
-        <tr>
-            <th>Nama Instansi</th>
-            <th>Tahun Ajaran</th>
-        </tr>
-        <tr>
-            <td>Universitas Sebelas Maret</td>
+
+<!--pendidikan-->
+<div id="pendidikan" class="container">
+    <h2 class="text-center mb-3">Riwayat Pendidikan</h2>
+    <table class="table">
+        <thead>
+          <tr>
+            <th class="table-secondary" scope="col">Nama Instansi</th>
+            <th class="table-secondary" scope="col">Tahun Ajaran</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Universitas Sebelas Maret</th>
             <td>2020-sekarang</td>
-        </tr>
-        <tr>
-            <td>SMA N 3 Boyolali</td>
+          </tr>
+          <tr>
+            <th scope="row">SMA Negeri 3 Boyolali</th>
             <td>2016-2019</td>
-        </tr>
-        <tr>
-            <td>SMP N 6 Boyolali</td>
-            <td>2013-2016</td>
-        </tr>
-        <tr>
-            <td>SD N 2 Batan</td>
+          </tr>
+          <tr>
+            <th scope="row">SMP Negeri 6 Boyolali</th>
+            <td>2012-2016</td>
+          </tr>
+          <tr>
+            <th scope="row">SD Negeri 2 Batan</th>
             <td>2007-2013</td>
-        </tr>
-    </table>
+          </tr>
+         
+        </tbody>
+      </table>
+</div>
     <br>
-    <table border="1">
-        <tr>
-            <th colspan="3">Pengalaman Organisasi</th>
-        </tr>
-        <tr>
-            <th>Nama Organisasi</th>
-            <th>Jabatan</th>
-            <th>Tahun</th>
-        </tr>
-        <tr>
-            <td>Badan Eksekutif Mahasiswa FISIP UNS</td>
-            <td>Staff Kementerian Dalam Negeri</td>
-            <td>2022-Sekarang</td>
-        </tr>
-        <tr>
-            <td>Pengurus UKM Bulutangkis UNS</td>
-            <td>Staff Humas</td>
-            <td>2021-Sekarang</td>
-        </tr>
-    </table>
+
+    <!--Organisasi-->
+    <div id="Organisasi" class="container">
+        <h2 class="text-center mb-3">Pengalaman Organisasi</h2>
+        <table class="table">
+            <thead>
+              <tr>
+                <th class="table-secondary" scope="col">Nama Organisasi</th>
+                <th class="table-secondary" scope="col">Jabatan</th>
+                <th class="table-secondary" scope="col">Tahun</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Badan Eksekutif Mahasiswa FISIP UNS</td>
+                <td>Staff Kementerian Dalam Negeri</td>
+                <td>2022-Sekarang</td>
+              </tr>
+              <tr>
+                <td>Pengurus UKM Bulutangkis UNS</td>
+                <td>Staff Humas</td>
+                <td>2021-Sekarang</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
     <br>
-        <table border="1">
-            <tr>
-                <th colspan="3">Pengalaman Kepanitiaan/Volunteer</th>
-            </tr>
-            <tr>
-                <th>Kepanitiaan/Volunteer</th>
-                <th>Jabatan</th>
-                <th>Tahun</th>
-            </tr>
-            <tr>
+
+    <!--Kepanitiaan-->
+    <div id="Kepanitiaan" class="container">
+        <h2 class="text-center mb-3">Pengalaman Kepanitiaan</h2>
+        <table class="table">
+            <thead>
+              <tr>
+                <th class="table-secondary" scope="col">Kepanitiaan/Volunteer</th>
+                <th class="table-secondary" scope="col">Jabatan</th>
+                <th class="table-secondary" scope="col">Tahun</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
                 <td>Panitia Gamacakra PKKMB FISIP UNS 2022</td>
                 <td>Staff Transportasi,Operasional,dan Perlengkapan</td>
                 <td>2022</td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>Dolan Ngringo (Dosen Based Project)</td>
                 <td>Divisi Sekolah Sepak Bola</td>
                 <td>2022</td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>Webinar Bedah Buku “Jejak Listrik di Tanah Raja"</td>
                 <td>PJ Acara</td>
                 <td>2021</td>
-            </tr>
-            <tr>
+             </tr>
+             <tr>
                 <td>Webinar Nasional Laboratorium Sosiologi UNS</td>
                 <td>PJ Acara</td>
                 <td>2021</td>
@@ -114,24 +152,36 @@
                 <td>Staff Humas</td>
                 <td>2020</td>
             </tr>
-        </table>
+
+
+            </tbody>
+          </table>
+    </div>
         <br>
-    <table border="1">
-        <tr>
-            <th colspan="2">Riwayat Prestasi</th>
-        </tr>
-        <tr>
-            <th>Jenis Prestasi</th>
-            <th>Tahun</th>
-        </tr>
-        <tr>
-            <td>Olahraga (Bola Basket) tingkat kabupaten </td>
-            <td>2018</td>
-        </tr>
-        <tr>
-            <td>Olahraga (Bola Basket) tingkat kabupaten </td>
-            <td>2017</td>
-        </tr>
-    </table>
+
+    <!--Prestasi-->
+    <div id="Prestasi" class="container">
+        <h2 class="text-center mb-3">Riwayat Prestasi</h2>
+        <table class="table">
+            <thead>
+              <tr>
+                <th class="table-secondary" scope="col">Jenis Prestasi</th>
+                <th class="table-secondary" scope="col">Tingkat</th>
+                <th class="table-secondary" scope="col">Tahun</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Olahraga (Bola Basket) </td>
+                <td>Kabupaten </td>
+                <td>2018</td>
+              </tr>
+              <tr>
+                <td>Olahraga (Bola Basket) </td>
+                <td>Kabupaten </td>
+                <td>2017</td>
+              </tr>
+            </tbody>
+    </div>
 </body>
 </html>

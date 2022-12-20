@@ -1,0 +1,39 @@
+
+nav{
+    background-color:#CFE8A9;
+    position: fixed;
+}
+
+.image-hero{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.title {
+    font-family: "Raleway", sans-serif;
+}
+
+.subtitle {
+    letter-spacing: 10px;
+}
+
+
+#hero {
+    height: 95vh;
+    ;
+}
+
+
+.card-body{
+    background-color: #CFE8A9;
+}
+
+.text-about {
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
